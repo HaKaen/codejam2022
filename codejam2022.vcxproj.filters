@@ -23,5 +23,8 @@
     <ClInclude Include="qualif.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="round1A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

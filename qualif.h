@@ -5,6 +5,8 @@
 #include <algorithm>
 #include <numeric>
 
+using namespace std;
+
 void a(int R, int C)
 {
 	std::string line1;
@@ -156,4 +158,8 @@ void e() {
 	std::cin >> R;
 	std::cin >> P;
 	std::cout << "E " << edges_est / 2 << std::endl;
+}
+
+void test_case() {
+	e();
 }

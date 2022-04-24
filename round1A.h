@@ -10,7 +10,18 @@
 using namespace std;
 
 void a() {
-	cout << "oh nyo" << endl;
+	string s;
+	cin >> s;
+	char prev = s[0];
+	for (int c = 1; c < s.length(); ++c)
+	{
+		if (s[c] > prev) {
+			cout << prev;
+		}
+		cout << prev;
+		prev = s[c];
+	}
+	cout << s[s.length()-1]<< endl;
 }
 
 void b() {
@@ -19,4 +30,8 @@ void b() {
 
 void c() {
 	cout << "oh nyo" << endl;
+}
+
+void test_case() {
+	a();
 }
